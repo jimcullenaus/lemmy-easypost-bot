@@ -1,0 +1,22 @@
+{
+  "name": "lemmy-easypost-bot",
+  "version": "0.0.0-semantically-released",
+  "description": "A bot to make manually posting links from various sites to Lemmy easier",
+  "main": "main.ts",
+  "scripts": {
+    "start": "node src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimcullenaus/lemmy-easypost-bot.git"
+  },
+  "keywords": [
+    "lemmy"
+  ],
+  "author": "Jim Cullen",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/jimcullenaus/lemmy-easypost-bot/issues"
+  },
+  "homepage": "https://github.com/jimcullenaus/lemmy-easypost-bot#readme"
+}
