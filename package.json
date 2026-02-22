@@ -4,7 +4,7 @@
   "description": "A bot to make manually posting links from various sites to Lemmy easier",
   "main": "main.ts",
   "scripts": {
-    "start": "node src/main.ts"
+    "start": "tsx src/main.ts"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/jimcullenaus/lemmy-easypost-bot/issues"
   },
-  "homepage": "https://github.com/jimcullenaus/lemmy-easypost-bot#readme"
+  "homepage": "https://github.com/jimcullenaus/lemmy-easypost-bot#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "lemmy-bot": "^0.6.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
 }
