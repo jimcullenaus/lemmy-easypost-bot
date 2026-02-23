@@ -4,13 +4,11 @@ export default class AppConfig {
     public readonly loginInstanceName: string;
     public readonly username: string;
     public readonly password: string;
-    public readonly timezone: string;
 
     private constructor(env : Env) {
         this.loginInstanceName = AppConfig.requireEnv(env, 'LOGIN_INSTANCE_NAME');
         this.username = AppConfig.requireEnv(env, 'USERNAME');
         this.password = AppConfig.requireEnv(env, 'PASSWORD');
-        this.timezone = AppConfig.requireEnv(env, 'TIMEZONE');
     }
 
     public static fromEnvironment(env : Env = process.env) : AppConfig {
